@@ -48,6 +48,6 @@ app.get("/getOnlineAgents", async (req, res) => {
     });
   }
   res.send({
-    "response": data
+    "response": hasAttendant
   });
 });
